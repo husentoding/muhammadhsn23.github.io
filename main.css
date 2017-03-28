@@ -16,9 +16,15 @@ body{
     margin: 50px auto;
     border-radius: 50px;
     
+    
 }
 #header{
     border-bottom: 1px solid pink;
+    background-image: url("meowpanda.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 #pamer{
@@ -32,6 +38,28 @@ body{
     padding-bottom: 5px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+#pamer p{
+    display: block;
+    border: 1px solid pink;
+    background: pink;
+    margin-top: -15px;
+    font: 10px Georgia;
+    float:right;
+    
+}
+
+#pamer a{
+    text-decoration: none;
+    display:block;
+    border:1px solid pink;
+    padding: 5px;
+    background: pink;
+}
+
+#pamer a:hover{
+    background: #FF69B4;
 }
 
 #header h1{
