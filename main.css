@@ -21,11 +21,29 @@ body{
 #header{
     border-bottom: 1px solid pink;
     background-image: url("meowpanda.png");
+    background-size: 80px 80px;
+    
     background-repeat: no-repeat;
     background-position: right;
+    
+    
     margin-right: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
 }
+
+
+
+#header h1:hover{
+    transform: rotate(2deg);
+    font: 36px Century Gothic;
+}
+#header h4:hover{
+    transform: rotate(-2deg);
+    font: 18px Arial;
+}
+
+
+
 
 #pamer{
     border-bottom: 1px solid pink;
