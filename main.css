@@ -47,6 +47,10 @@ body{
 
 #pamer{
     border-bottom: 1px solid pink;
+    background-image: url("p5js.png");
+    background-size: 90px 90px;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 #pamer li{
