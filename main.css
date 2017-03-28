@@ -1,0 +1,61 @@
+*{
+    font: 16px Tahoma;
+}
+
+header, section, footer, aside, article, nav, hgroup{
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+
+#wrapper{
+    width:1000px;
+    border: 1px solid pink;
+    margin: 50px auto;
+    border-radius: 50px;
+    
+}
+#header{
+    border-bottom: 1px solid pink;
+}
+
+#pamer{
+    border-bottom: 1px solid pink;
+}
+
+#pamer li{
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#header h1{
+    text-align: left;
+    font: 32px Century Gothic;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+#header h4{
+    margin-top: 0px;
+    text-align: left;
+    font: 14px Arial;
+    padding-top: 0px;
+    padding-left: 20px;
+
+}
+
+
+#footer{
+    clear:both;
+}
+#footer h4{
+    font: 10px Tahoma;
+}
