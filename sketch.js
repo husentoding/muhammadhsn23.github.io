@@ -15,7 +15,7 @@ function setup(){
     on=false;
     playbutton= createButton('toggle');
     playbutton.mouseClicked(onMusic);
-    fft= new p5.FFT(0.9,fftsize);
+    fft= new p5.FFT(0.4,fftsize);
 }
 
 function draw(){
