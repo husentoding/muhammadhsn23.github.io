@@ -1,0 +1,38 @@
+*{
+    font: 16px Tahoma;
+}
+
+header, section, footer, aside, article, nav, hgroup{
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+
+#wrapper{
+    width: 1000px;
+    margin: 50px auto;
+
+}
+
+#mid{
+    margin-top:150px;
+}
+
+#foot{
+    margin-top:150px;
+}
+
+#mid a{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#mid a:link{
+    text-decoration: none;
+}
+#mid a:visited{
+    text-decoration: none;
+}
